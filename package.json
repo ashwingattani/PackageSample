@@ -1,0 +1,39 @@
+{
+  "name": "@ashwingattani/npmcompletepackage",
+  "version": "1.0.0",
+  "description": "A completet npm package with tests and folder structure",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build:npm": "webpack",
+    "test": "cross-env NODE_ENV=test jest"
+  },
+  "author": "Ashwin Gattani",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.3.0",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "css-loader": "^6.5.1",
+    "path": "^0.12.7",
+    "prop-types": "^15.7.2",
+    "react-scripts": "^4.0.3",
+    "style-loader": "^3.3.1",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "@babel/plugin-syntax-jsx": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "cross-env": "^7.0.3",
+    "jest": "^27.3.1",
+    "react-app-rewired": "^2.1.8",
+    "react-dom": "^16.13.1",
+    "webpack": "^5.64.3"
+  }
+}
